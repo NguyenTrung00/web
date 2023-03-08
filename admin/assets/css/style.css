@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+#wrapper {
+    width: 90%;
+    height: auto;
+    border: 1px solid #000;
+    margin: 20px auto;
+}
+
+/* header section */
+#header img {
+    margin-left: 57px;
+    width: 90%;
+    height: 200px;
+}
+
+/* menu section */
+#menu .admin_list {
+    width: 100%;
+    list-style: none;
+}
+
+#menu .admin_list li {
+    display: inline-block;   
+    background-color: aqua;
+    margin: 20px;
+}
+
+#menu .admin_list li a {
+    display: block;
+    padding: 10px 20px;
+    color: red;
+    text-decoration: none ;
+}
+
+/* main section */
+#main {
+    width: 100%;
+    height: auto;
+}
+#main h3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#main table {
+    margin: 10px auto;
+    width: 50%;
+    border: 1px solid #333;
+    border-collapse: collapse;
+}
+
+#main table td, 
+#main table tr {
+    border: 1px solid #333;
+    height: 30px;
+    text-align: center;
+}
+
+#main table td input {
+    width: 100%;
+    height: 30px;
+}
+
+#main table td .add_category{
+    width: 200px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+/* footer section */
+#footer {
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+}
+
+#footer h3 {
+    text-align: center;
+}
+
+/* Admin section */
+#wrapper_admin {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#wrapper_admin form {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius: 20%;
+    backdrop-filter: blur(20px);
+}
+
+#wrapper_admin h1{
+    margin-top: 30px;
+}
+#wrapper_admin div{
+    margin: 30px ;
+}
+#wrapper_admin div span {
+    margin-right: 30px;
+}
+
+#wrapper_admin input{
+    margin-left: 30px;
+    height: 30px;
+    width: 200px;
+}
+
+#wrapper_admin .btn_login {
+    width: 150px;
+    cursor: pointer;
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+#wrapper_admin .btn_login:hover {
+    background-color: aqua;
+    border: none;
+}
